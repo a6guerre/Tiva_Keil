@@ -1,0 +1,16 @@
+Dependencies for Project 'RTOS', Target 'RTOS': (DO NOT MODIFY !)
+F (.\tm4c123gh6pm.h)(0x5D337E61)()
+F (.\startup.s)(0x5D3612DC)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_RTOS-IC:\Users\Max\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Max\AppData\Local\Arm\Packs\Keil\LM4F_DFP\1.0.0\Device\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "LM4F120 SETA 1"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\osasm.s)(0x5D361E80)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_RTOS-IC:\Users\Max\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Max\AppData\Local\Arm\Packs\Keil\LM4F_DFP\1.0.0\Device\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "LM4F120 SETA 1"--list .\osasm.lst --xref -o .\osasm.o --depend .\osasm.d)
+F (.\os.c)(0x5D548248)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_RTOS-IC:\Users\Max\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Max\AppData\Local\Arm\Packs\Keil\LM4F_DFP\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLM4F120 -Drvmdk -DPART_LM4F120H5QR-o .\os.o --omf_browse .\os.crf --depend .\os.d)
+I (os.h)(0x5D547A0B)
+I (tm4c123gh6pm.h)(0x5D337E61)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+F (.\PLL.c)(0x5D337E37)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_RTOS-IC:\Users\Max\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Max\AppData\Local\Arm\Packs\Keil\LM4F_DFP\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLM4F120 -Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLL.h)(0x5D4CB835)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (tm4c123gh6pm.h)(0x5D337E61)
+F (.\user.c)(0x5D54BFC4)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_RTOS-IC:\Users\Max\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Max\AppData\Local\Arm\Packs\Keil\LM4F_DFP\1.0.0\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -DLM4F120 -Drvmdk -DPART_LM4F120H5QR-o .\user.o --omf_browse .\user.crf --depend .\user.d)
+I (os.h)(0x5D547A0B)
+I (tm4c123gh6pm.h)(0x5D337E61)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
